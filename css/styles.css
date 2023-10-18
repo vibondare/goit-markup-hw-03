@@ -19,8 +19,17 @@ img {
 .header {
   width: 1158px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  border-bottom: 1px solid #e7e9fc;
+  margin: 0;
+  padding: 0 15px 0 15px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation-list {
+  display: flex; 
 }
 
 .logo-link {
@@ -51,6 +60,10 @@ img {
 
 .address {
   font-style: normal;
+}
+
+.address-list {
+  display: flex;
 }
 
 .address-list-item-link {
