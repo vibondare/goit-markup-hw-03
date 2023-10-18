@@ -5,7 +5,18 @@ body {
   background-color: #ffffff;
 }
 
-.container {
+img {
+  display: block;
+}
+
+/* .container {
+  width: 1158px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.header {
   width: 1158px;
   display: flex;
   flex-direction: column;
