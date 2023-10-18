@@ -23,16 +23,19 @@ img {
 .container {
   width: 1158px;
   display: flex;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .navigation-list {
   display: flex;
+  padding: 24px 0 24px;
+  gap: 40px;
 }
 
 .logo-link {
@@ -43,6 +46,7 @@ img {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .logo-link-span {
@@ -67,6 +71,8 @@ img {
 
 .address-list {
   display: flex;
+  padding: 24px 0 24px;
+  gap: 40px;
 }
 
 .address-list-item-link {
@@ -74,6 +80,10 @@ img {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.address-list-item-the-last {
+  margin-right: 0;
 }
 
 .address-list-item-link:hover,
