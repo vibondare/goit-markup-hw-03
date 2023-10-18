@@ -129,12 +129,30 @@ img {
   background-color: #404bbf;
 }
 
+.advantages-section {
+  padding: 120px 0;
+}
+
 .advantages-section-list-item-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+.advantages-section-list {
+  display: flex;
+  gap: 24px;
+  margin-right: 0;
+}
+
+.advantages-section-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-section-list-item-text {
