@@ -5,6 +5,13 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 1158px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -68,6 +75,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
 }
 
 .hero-button:hover,
