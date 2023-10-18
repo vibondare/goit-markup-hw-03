@@ -17,9 +17,12 @@ img {
 } */
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
   width: 1158px;
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
   margin: 0;
   padding: 0 15px 0 15px;
 }
@@ -29,7 +32,7 @@ img {
 }
 
 .navigation-list {
-  display: flex; 
+  display: flex;
 }
 
 .logo-link {
@@ -99,7 +102,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
 }
 
 .hero-button:hover,
