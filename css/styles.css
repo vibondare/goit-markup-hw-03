@@ -34,8 +34,11 @@ img {
 
 .navigation-list {
   display: flex;
-  padding: 24px 0 24px;
   gap: 40px;
+}
+
+.navigation-list-item {
+  padding: 24px 0 24px;
 }
 
 .logo-link {
