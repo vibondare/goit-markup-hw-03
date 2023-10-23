@@ -37,9 +37,9 @@ img {
   gap: 40px;
 }
 
-.navigation-list-item {
+/* .navigation-list-item {
   padding: 24px 0 24px;
-}
+} */
 
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -61,6 +61,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .navigation-list-item-link:hover,
