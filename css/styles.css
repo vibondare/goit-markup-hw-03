@@ -9,6 +9,11 @@ img {
   display: block;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 /* .container {
   width: 1158px;
   display: flex;
@@ -242,7 +247,7 @@ img {
 }
 
 .our-portfolio-section-list-item {
-  Width: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .our-portfolio-section-list-item-container {
