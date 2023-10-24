@@ -14,22 +14,19 @@ ul {
   padding: 0;
 }
 
-/* .container {
-  width: 1158px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
   width: 1158px;
-  display: flex;
+  /* display: flex; */
   margin: 0 auto;
   padding: 0 15px 0 15px;
+}
+
+.header-container {
+  display: flex;
 }
 
 .navigation {
@@ -244,10 +241,6 @@ ul {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-
-.container .our-portfolio-section-list-item {
-  display: block;
 }
 
 .our-portfolio-section-list-item {
